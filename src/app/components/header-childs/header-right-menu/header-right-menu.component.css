@@ -1,0 +1,30 @@
+ul{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+svg{
+    color: white;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+.versions{
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+    padding: 10px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+}

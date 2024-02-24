@@ -1,0 +1,30 @@
+.search_container{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(205, 201, 201);
+    padding: 10px;
+    border-radius: 10px;
+}
+.center_container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+input::placeholder{
+    color: white;
+    font-size: 16px;
+}
